@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    align-items: flex-start;
+    background-color: #a09797;
+}
+
+
+.item   {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #333;
+    margin: 2px;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}                            
+
+.item-b {
+    align-self: center;
+}
+
+item-d {
+    align-self: auto;/*Aqui herdou o algin-items do pai. Inherit também significa herdado.  */
+}
+
+.item-i {
+    align-self: stretch;
+}
+
+.item-f {
+    align-self: flex-end;
+}
+

@@ -1,0 +1,17 @@
+.container {
+background-color: lightgreen;
+display: flex;
+flex-flow: row wrap;
+align-content: flex-start;
+height: 400px;
+}
+
+
+.item {
+background-color: lightblue;
+border: 1px solid blue;
+/* flex: auto;  os itens se adaptam ao tamanho do container pai, dentro do próprio container, só funciona no elemento filho */
+text-align: center;
+font-weight: bold;
+padding: 10px;
+}

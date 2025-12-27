@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="telas-grandes.style.css">
+
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<body class="tela-grande">
+    
+
+<header>
+<h1>Meu Site</h1>
+
+<i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+<menu class="menu-js">
+<nav>   
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Contatos</a></li>
+<li><a href="#">Sobre</a></li>
+<li><a href="#">Serviços</a></li>
+<li><a href="#">Institucional</a></li>
+</ul>
+</nav> 
+</menu>
+</header>
+
+<main>
+    
+    <h2>Testando Media Queries</h2>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem at temporibus, provident vel nobis pariatur, maxime fugiat vitae iusto aut adipisci architecto vero, iste delectus neque optio. Quos, blanditiis voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse id vitae quisquam incidunt laudantium blanditiis doloremque sapiente saepe perferendis at accusamus error, facilis quas voluptatibus eligendi dolorum ex quaerat!</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere perferendis qui culpa sint accusamus fugit magni sunt maiores, doloribus suscipit dolores necessitatibus cum, nulla nisi libero sit ullam eligendi.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere provident ipsum accusantium ipsa temporibus excepturi. Maxime doloribus officia nobis quaerat sequi mollitia fugit reiciendis nesciunt facere similique modi, ad magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a eaque tempora aliquam, sapiente sed eligendi incidunt neque similique unde illum at dolorum modi quae non placeat, repellendus quasi nihil!</p>
+</main>
+
+
+<script>
+    function clickMenu() {
+        const menu = document.querySelector('.menu-js');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+    width: 420px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+thead th tr {
+position: sticky;
+top: -1px;
+background-color: lightblue;
+}
+
+
+tbody tr:nth-child(2N){ /*EFEITO ZEBRADO. 
+    AO INVÉS DE 2N (EVEN = PAR) OU PODE COLOCAR 2N-1 = (ODD = ÍMPAR) */
+background-color: lightgray;    
+}
+td, th {
+    border: 1px solid black;
+       padding: 5px;
+}
+
+thead {
+background-color: lightblue;
+
+}
+
+.num {
+    text-align: right;
+}
+

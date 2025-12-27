@@ -1,0 +1,19 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+P {
+    margin: 5px;
+    padding: 2px;
+}
+
+div {
+margin: 5px;
+padding: 2px;
+}
+
+
+

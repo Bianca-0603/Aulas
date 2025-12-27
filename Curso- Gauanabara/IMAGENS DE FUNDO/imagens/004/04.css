@@ -1,0 +1,9 @@
+body {
+    background-image:url("../pattern003.png");
+background-repeat: no-repeat;
+background-size: 150px;
+border: 1px dashed black;
+background-position: center center;  /*primeiro são as colunas : esquerda; centro e direita e o segundo valor é o da linha: top; center e bottom. */
+height: 98vh;
+
+}

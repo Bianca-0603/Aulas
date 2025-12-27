@@ -1,0 +1,23 @@
+.container {
+height: 96vh;
+background-color: purple;
+padding: 10px;
+position: relative; /*todo box por padrão já tem posição relativa. */
+background-image: url("../target001.png");
+background-size: 100% 100%; /*OCUPA 100% DO TAMANHO DO CONTAINER - VALOR 1 = LARGURA E VALOR 2= ALTURA */
+}
+
+.conteudo {
+height: 200px;
+background-color: yellow;
+width: 400px;
+position: absolute; /*quando o elemento é de posição absoluta permite utilizar duas propriedades :  left e top 
+LEFT  -  A DISTÂNCIA ENTRE A A BORDA ESQUERDA E DO CONTAINER ATÉ O INÍCIO FA CAIXA DO CONTEÚDO.  
+O TOP TEM A DISTÂNCIA DO TOPO DO CONTAINER ATÉ O INÍCIO DA BORDA DO CONTEÚDO.*/  
+
+left: 50%;
+top: 50%;
+background-image: url("../target001.png");
+background-size: 100% 100%;
+transform: translate(-50%, -50%) ; /*Permite mexer em qualquer caixa aplicando uma transformação */
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa JS</title>
+    <style>
+        body{
+background-color:wheat;
+font: normal 20pt arial;      
+color:rgb(77, 19, 184);
+
+}
+    </style> 
+</head>
+<Olá>
+    
+<h1>Olá Mundo!</h1>
+
+<p>Já me livrei da maldição!</p>
+
+<script>
+// O COMANDO PROMPT POR PADRÃO, RETORNA O RESULTADO EM STRING, ENTÃO POR ISO PRECISA CONVERTER PARA NUMBER
+//    var n1 = prompt("Digite um número: ")
+//    var n2 = prompt("Digite um outro número: ")
+//    var soma = n1 + n2
+// alert("a soma dos valores " + soma)
+
+ 
+//CONVERTENDO DE STRING PARA NUMBER 
+// O COMANDO PROMPT POR PADRÃO, RETORNA O RESULTADO EM STRING, ENTÃO POR ISO PRECISA CONVERTER PARA NUMBER
+//var n1 = Number.parseInt(prompt("Digite um número: "))   
+  //var n2 = Number.parseInt(prompt("Digite um outro número: "))  
+  //var soma = n1 + n2
+  //alert("a soma dos valores " + soma)
+
+
+//DEIXANDO O JS DEFINIR QUAL TIPO DE NÚMERO ELE ESTÁ RECEBENDO 
+//var n1 = Number(prompt("Digite um número: "))   //8.5
+//var n2 = Number(prompt("Digite um outro número: "))  //7.3
+//var soma = n1 + n2
+//alert("a soma dos valores " + soma)  // RESULTADO =  15.8
+
+
+//CONVERTENDO  DE NUMBR PARA STRING TEMOS DUAS FORMAS: 
+//var n1 = Number(prompt("Digite um número: "))
+//var n2 = Number(prompt("Digite um outro número: "))
+//var soma = n1 + n2
+//window.alert("A soma do valores é " + String(soma))  // OU 
+//window.alert = ("A soma do valores é " + .toString(soma))
+
+//FORMATANDO  STRINGS 
+var n1 = Number(prompt("Digite um número: "))
+var n2 = Number(prompt("Digite um outro número: "))
+var soma = n1 + n2
+window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+
+</script>
+
+</body>
+</html>

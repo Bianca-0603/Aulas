@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.item {
+background-color: lightgreen;
+border: 2px solid green;
+padding: 20px;
+text-align: center;
+}
+
+.cxa {
+flex: 1 0 200px;
+}
+
+.cxb {
+flex: 1 1 150px;
+}
+
+.cxc {
+flex: 1 0 auto;
+}

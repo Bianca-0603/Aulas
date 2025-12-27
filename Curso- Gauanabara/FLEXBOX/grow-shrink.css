@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;   
+    background-color: lightcyan;
+    border: 2px solid blue;
+}
+
+.item {
+    background-color: lightgreen;
+    border: 2px solid  black;
+    padding: 20px;
+    flex-basis: 180px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+}

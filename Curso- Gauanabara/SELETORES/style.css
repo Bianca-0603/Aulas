@@ -1,0 +1,58 @@
+body {
+  background-color: rgba(188, 235, 119, 0.671);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: blue;
+}
+
+#principal {
+  color: red;
+  text-align: center;
+  background-color: yellow;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+a:visited {
+  /*pseudo-classe*/
+  color: darkred;
+}
+
+a:hover {
+  /*pseudo-classe*/
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  /* Pseudo-classe. Quando o link está sendo clicado*/
+  color: purple;
+}
+
+/*  PSEUDO-ELEMENTOS     -    :: */
+
+a::before {
+  /*ANTES DO ENDEREÇO DO LINK, FAÇA APARECER A PALAVRA LINK*/
+  content: " link ⇐ "; /*CONTEÚDO*/
+  color: blue;
+  text-decoration: none;
+}
+
+a::after {
+  /*DEPOIS DO ENDEREÇO DO LINK, FAÇA APARECER A PALAVRA LINK*/
+  content: " link ⇒"; /*CONTEÚDO*/
+  color: blue;
+  text-decoration: none;
+}
+
+/*CÓDIGOS DE SIMBOLOS EM HTML5  -  https://fap.if.usp.br/~vvuolo/A%20-%20HOME%20-%20Fisica/simbolos.htm*/

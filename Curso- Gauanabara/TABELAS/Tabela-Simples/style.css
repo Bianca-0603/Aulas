@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table.primeiratb {
+    width: 400px;
+    border: 3px solid red;
+    border-collapse: collapse;  /* O valor padrão é seprared , mas queremos unir as bordas para que não tenham espaços então escolhemos collapse. */
+}
+
+tr {
+    background-color: lightcyan;
+}
+
+.linha2 {
+    background-color: lightpink;
+}
+
+.dado {
+background-color: rgba(224, 224, 9, 0.808);    
+}
+
+table.Segundatb {
+ width: 300px;
+ height: 300px;
+    border: 3px solid red;
+    border-collapse: collapse; 
+}
+
+td.segunda-linha {
+vertical-align: top;
+
+}
+
+td.terceira-linha {
+    vertical-align: bottom;
+}
+
+td.quarta-linha {
+vertical-align: middle;
+
+}

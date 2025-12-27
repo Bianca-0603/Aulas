@@ -1,0 +1,22 @@
+caption {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 360px;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+.nome {
+background-color: lightsalmon;
+
+}
+
+.grupo {
+    background-color: lightgreen;
+}

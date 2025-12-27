@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+<h3>Radio e Checkbox</h3>
+
+<form action="cadastro.js" method="get">
+<fieldset>
+<legend>Sexo</legend>
+
+<input type="radio" name="sexo" id="sexf"><label for="sexf">Feminino</label>
+<input type="radio" name="sexo" id="sexm"><label for="sexm">Masculino</label>
+
+<!-- Todos os botões de radio, precisam ter o mesmo name eo ID ser diferente para que o label funcione. 
+ Por que usar o mesmo name ?
+Quando vários input:radio compartilham o mesmo name, o navegador entende que eles fazem parte de um único grupo de escolha. Isso significa:
+•  O usuário só pode selecionar uma opção por vez.
+•  Ao selecionar uma nova opção, a anterior é automaticamente desmarcada.
+⚠️ Se os s forem diferentes…
+• 	O navegador trata cada input como um grupo separado.
+• 	O usuário pode marcar ambos ao mesmo tempo, o que quebra a lógica de escolha única.  -->
+</fieldset>
+
+
+<fieldset>
+    <legend>Esportes Favoritos</legend>
+<input type="checkbox" name="nat" id="nat"><label for="nat">Natação</label>
+<input type="checkbox" name="pat" id="pat"><label for="pat">Patinação no Gelo</label> 
+<input type="checkbox" name="gin" id="gin"><label for="gin">Ginástica Ritmica</label>
+<input type="checkbox" name="hock" id="hock"><label for="hock">Hockey</label> 
+<input type="checkbox" name="nad" id="nad"><label for="nad">Nado Sincronizado</label>
+<input type="checkbox" name="salt" id="salt"><label for="salt">Salto Ornamental</label>  
+</fieldset>
+
+<div>
+<input type="submit" value="Enviar">
+<input type="submit" value="Limpar">
+ 
+</div>
+
+
+
+
+
+</form>
+
+</body>
+</html>

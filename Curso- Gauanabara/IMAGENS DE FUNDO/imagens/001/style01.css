@@ -1,0 +1,25 @@
+body {
+    background-image: url("../imagens/wallpaper001.jpg");
+}
+
+
+.quadrado {
+border: 3px solid black;
+width: 300px;
+height: 300px;
+display: inline-block;  /*faz um ficar ao lado do outro */
+border-radius: 10px;
+background-color: lightgray;
+}
+
+#q1 {
+    background-color: lightblue;
+}
+
+#q2 {
+    background-image: linear-gradient(to bottom, yellow, orange, red);
+}
+
+#q3 {
+    background-image: url("../imagens/pattern001.png");
+}

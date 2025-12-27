@@ -1,0 +1,10 @@
+body {
+
+background-image:url("../wallpaper003.jpg");
+background-repeat: no-repeat;
+height: 98vh;
+background-position: center center;
+}
+
+
+/*LEMBRANDO QUE QUANDO FOR USAR O BODY, PRECIA MEXER NA ALTURA DO BODY, PQ POR PADRÃO QUANDO ELE ESTÁ SEM CONTEÚDP ELE FICA FININHO/ACHATADO */

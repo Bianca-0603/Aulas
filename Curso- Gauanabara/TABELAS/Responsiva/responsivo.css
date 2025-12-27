@@ -1,0 +1,25 @@
+div#id {
+    overflow-x:auto ;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    font-size: .8em;
+    }
+
+tr:nth-child(even) {
+    background-color: rgba(78, 247, 247, 0.582);
+}
+
+iframe {
+    background-color: lightcyan;
+    display: block;
+    margin: auto;
+}

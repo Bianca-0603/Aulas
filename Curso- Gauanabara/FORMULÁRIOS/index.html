@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+    <title>Formulários</title>
+</head>
+<body>
+
+<h3>Formulário</h3>
+
+<form action= "cadastro.js" method="get" autocomplete="off">  
+    <!-- MÉTODOS: GET  -  OS DADOS APARECEM NA URL E SÓ SUPORTA ENVIO DE DADOS DE ATÉ 3000 BITES   = 3000 LETRAS.  POST -  OS DADOS NÃO APARECEM. UTILIZAR PARA DADOS SENSÍVEIS COMO SENHAS, CARTÕES, CEP, ENDEREÇO, CPF, ARQUIVOS DE IMAGEM   -->
+
+<p><label for="nome">Nome:</label><input type="text" name="nome" id="nome"></p>  
+<!-- NAME é mais útil para utilizar em HTML e PHP e ID para fazer a relação com o label e JS.  -->
+<p><label for="sobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="sobrenome"></p>
+
+<p><input type="submit" value="Enviar"></p>  <!--  VALUE é o nome do botão que aparecerá na tela  -->
+
+</form>
+
+    
+</body>
+</html>

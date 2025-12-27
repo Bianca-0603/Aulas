@@ -1,0 +1,43 @@
+/* body { 
+    background: linear-gradient(to right, #140342, #F37F37, #F23D9C, #4258C9, #5A308A, #B426B5, #ED4156, #FECD4A); }  
+  
+body {
+background-image: linear-gradient(to right, #F37F37 20%, #F23D9C 40%, #4258C9 1%, #5A308A);
+}
+
+h1 {
+  color: white;
+} */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  body {
+   background-image: linear-gradient(to right, #FECD4A, #F37F37, #F23D9C);
+  }
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #94245e;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    color:   #f3701f;
+    text-shadow: 1px 1px 2px  #ff8132;
+    text-align: center;
+}
+
+h2 {
+    color: #FECD4A;
+    text-shadow: 1px 1px 2px #f1d039;
+}
+
+p {
+    text-align: justify;
+    font-weight: 600;
+        }

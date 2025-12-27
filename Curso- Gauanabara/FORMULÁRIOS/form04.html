@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+<h3>Input Color</h3>
+
+<form action="cadastro.js" method="post" autocomplete="on"></form>
+<div>
+<label for="cor">Cor</label>
+<input type="color" name="cor" id="cor" value="#00ff22">
+</div>
+
+<div>
+<label for="nivel">Nível de satisfação</label>
+<input type="range" name="nivel" id="nivel" min="1" max="5">
+</div>
+
+ <div> <!-- Precisa utilizar o método POST para enviar arquivos e elementos que passam de 3000 bites ou 3000 letras. -->
+<label for="foto">Foto de perfil</label>
+<input type="file" name="foto" id="foto">
+</div>
+
+
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+
+
+    
+</body>
+</html>
