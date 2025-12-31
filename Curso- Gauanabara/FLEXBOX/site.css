@@ -18,28 +18,32 @@ background-color: rgb(219, 106, 219);
 color: white;
 padding: 10px;
 display: flex;
-flex-flow: row nowrap;
+flex-flow: row wrap;
 justify-content: space-between;
 align-items: center;
 
 }
 
 h1 {
-border: 2px dotted white;   
+/* border: 2px dotted rgb(0, 0, 0);    */
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
 justify-content: center;
 align-items: center;
-flex: 0 0 200px;
+flex: 0 0 150px;
 }
 
 nav {
-border: 2px dotted white; 
+/* border: 2px dotted rgb(19, 19, 19);  */
 padding: 2px;
 display: flex;
+flex-flow: row wrap;
 justify-content: flex-end;
 }
 
 
 a {
+display: flex;
+justify-content: flex-end;
 flex: 1 1 auto;
 background-color: rgb(153, 18, 153);
 border: 2px solid rgb(228, 144, 224);
@@ -51,14 +55,12 @@ font-size: 1em;
 text-decoration: none;
 padding: 5x;
 margin: 2px 2px;  
-display: flex;
-flex-flow: column wrap;
 }
 
 a:hover {
     background-color: white;
     color: purple;
-transition: 0.8s;
+    transition: 0.8s;
 }
 
 main {
@@ -69,22 +71,13 @@ main {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.411);
 }
 
+h2 {
+    text-shadow: 2px 2px 2px rgba(54, 53, 53, 0.322);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 p {
     font-weight: 500;
     text-align: justify;
 }
-
-@media (max-width: 580px) {
-    header nav {
-        background-color:  white;
-        color: purple;
-        flex-flow:  column nowrap;
-        align-items: flex-start;
-    }
-
-
-    a {
-        flex: 1 1 100%;
-        margin: 5px 0;
-    }
-} 

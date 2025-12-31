@@ -1,0 +1,20 @@
+
+@media (max-width: 580px) {
+    header, header > nav {
+        background-color:  white;
+        color: purple;
+        text-align: center;
+        flex-flow: column nowrap; 
+    }
+   
+    h1 {
+        flex-basis: 40px;
+    }
+
+nav, a {
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+} 
